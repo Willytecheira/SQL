@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/bebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bebida"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <Button
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deletar"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-50dp"
+         />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="406dp"
+        android:layout_height="415dp"
+        android:layout_marginTop="50dp"
+       />
+
+
+</LinearLayout>
